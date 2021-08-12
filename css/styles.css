@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    font-family: Open Sans;
+    background-size: cover;
+    background-image: url('/images/fondo-3.jpg');
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 90%;
+    height: auto;
+    padding: 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: .3s ease;
+}
+
+.container .grup-text {
+    padding: 3px;
+    text-align: center;
+    font-size: 28px;
+    color: #eee;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: .3s ease;
+}
+
+.container .grup-text > h2 {
+    transition: .3s ease;
+}
+
+.container .grup-text > i {
+    cursor: pointer;
+    transition: .3s ease;
+}
+
+.container .option {
+    position: relative;
+    width: auto;
+    height: auto;
+    padding: 3px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    transition: .3s ease;
+}
+
+
+.container .option > input {
+    width: 122px;
+    height: 42px;
+    background-image: linear-gradient(to left,  blueviolet 0%, purple 100%);
+    padding: 3px;
+    border: 0px solid transparent;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #eee;
+    text-align: center;
+    cursor: pointer;
+    transition: .3s ease;
+}
+
+.container .option > input:hover {
+    transform: scale(1.1);
+}
